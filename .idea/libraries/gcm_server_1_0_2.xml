@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="gcm-server-1.0.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/gcm-server-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jackson-annotations-2.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jackson-core-2.4.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jackson-databind-2.4.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jackson-dataformat-msgpack-0.7.0-p7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jawampa-0.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/json-simple-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/msgpack-core-0.7.0-p7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/netty-buffer-4.0.24.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/netty-codec-4.0.24.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/netty-codec-http-4.0.24.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/netty-common-4.0.24.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/netty-handler-4.0.24.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/netty-transport-4.0.24.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/rxjava-1.0.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

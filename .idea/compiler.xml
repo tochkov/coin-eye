@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="coin-eye" />
+        <module name="xchange-anx" />
+        <module name="xchange-bitbay" />
+        <module name="xchange-bitcoinaverage" />
+        <module name="xchange-bitcoincharts" />
+        <module name="xchange-bitcoinde" />
+        <module name="xchange-bitcoinium" />
+        <module name="xchange-bitcurex" />
+        <module name="xchange-bitfinex" />
+        <module name="xchange-bitkonan" />
+        <module name="xchange-bitmarket" />
+        <module name="xchange-bitso" />
+        <module name="xchange-bitstamp" />
+        <module name="xchange-bittrex" />
+        <module name="xchange-bleutrade" />
+        <module name="xchange-blockchain" />
+        <module name="xchange-btc38" />
+        <module name="xchange-btccentral" />
+        <module name="xchange-btcchina" />
+        <module name="xchange-btce" />
+        <module name="xchange-btcmarkets" />
+        <module name="xchange-btctrade" />
+        <module name="xchange-bter" />
+        <module name="xchange-campbx" />
+        <module name="xchange-cavirtex" />
+        <module name="xchange-cexio" />
+        <module name="xchange-clevercoin" />
+        <module name="xchange-coinbase" />
+        <module name="xchange-coinbaseex" />
+        <module name="xchange-coinfloor" />
+        <module name="xchange-coinmate" />
+        <module name="xchange-coinsetter" />
+        <module name="xchange-cointrader" />
+        <module name="xchange-core" />
+        <module name="xchange-cryptofacilities" />
+        <module name="xchange-cryptonit" />
+        <module name="xchange-cryptsy" />
+        <module name="xchange-empoex" />
+        <module name="xchange-examples" />
+        <module name="xchange-gatecoin" />
+        <module name="xchange-hitbtc" />
+        <module name="xchange-huobi" />
+        <module name="xchange-independentreserve" />
+        <module name="xchange-itbit" />
+        <module name="xchange-jubi" />
+        <module name="xchange-kraken" />
+        <module name="xchange-lakebtc" />
+        <module name="xchange-loyalbit" />
+        <module name="xchange-mercadobitcoin" />
+        <module name="xchange-mexbt" />
+        <module name="xchange-okcoin" />
+        <module name="xchange-openexchangerates" />
+        <module name="xchange-poloniex" />
+        <module name="xchange-quoine" />
+        <module name="xchange-ripple" />
+        <module name="xchange-taurus" />
+        <module name="xchange-therock" />
+        <module name="xchange-vaultoro" />
+        <module name="xchange-vircurex" />
+        <module name="xchange-yacuna" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="coin-eye" target="1.5" />
+      <module name="xchange-anx" target="1.7" />
+      <module name="xchange-bitbay" target="1.7" />
+      <module name="xchange-bitcoinaverage" target="1.7" />
+      <module name="xchange-bitcoincharts" target="1.7" />
+      <module name="xchange-bitcoinde" target="1.7" />
+      <module name="xchange-bitcoinium" target="1.7" />
+      <module name="xchange-bitcurex" target="1.7" />
+      <module name="xchange-bitfinex" target="1.7" />
+      <module name="xchange-bitkonan" target="1.7" />
+      <module name="xchange-bitmarket" target="1.7" />
+      <module name="xchange-bitso" target="1.7" />
+      <module name="xchange-bitstamp" target="1.7" />
+      <module name="xchange-bittrex" target="1.7" />
+      <module name="xchange-bleutrade" target="1.7" />
+      <module name="xchange-blockchain" target="1.7" />
+      <module name="xchange-btc38" target="1.7" />
+      <module name="xchange-btccentral" target="1.7" />
+      <module name="xchange-btcchina" target="1.7" />
+      <module name="xchange-btce" target="1.7" />
+      <module name="xchange-btcmarkets" target="1.7" />
+      <module name="xchange-btctrade" target="1.7" />
+      <module name="xchange-bter" target="1.7" />
+      <module name="xchange-campbx" target="1.7" />
+      <module name="xchange-cavirtex" target="1.7" />
+      <module name="xchange-cexio" target="1.7" />
+      <module name="xchange-clevercoin" target="1.7" />
+      <module name="xchange-coinbase" target="1.7" />
+      <module name="xchange-coinbaseex" target="1.7" />
+      <module name="xchange-coinfloor" target="1.7" />
+      <module name="xchange-coinmate" target="1.7" />
+      <module name="xchange-coinsetter" target="1.7" />
+      <module name="xchange-cointrader" target="1.7" />
+      <module name="xchange-core" target="1.7" />
+      <module name="xchange-cryptofacilities" target="1.7" />
+      <module name="xchange-cryptonit" target="1.7" />
+      <module name="xchange-cryptsy" target="1.7" />
+      <module name="xchange-empoex" target="1.7" />
+      <module name="xchange-examples" target="1.7" />
+      <module name="xchange-gatecoin" target="1.7" />
+      <module name="xchange-hitbtc" target="1.7" />
+      <module name="xchange-huobi" target="1.7" />
+      <module name="xchange-independentreserve" target="1.7" />
+      <module name="xchange-itbit" target="1.7" />
+      <module name="xchange-jubi" target="1.7" />
+      <module name="xchange-kraken" target="1.7" />
+      <module name="xchange-lakebtc" target="1.7" />
+      <module name="xchange-loyalbit" target="1.7" />
+      <module name="xchange-mercadobitcoin" target="1.7" />
+      <module name="xchange-mexbt" target="1.7" />
+      <module name="xchange-okcoin" target="1.7" />
+      <module name="xchange-openexchangerates" target="1.7" />
+      <module name="xchange-parent" target="1.7" />
+      <module name="xchange-poloniex" target="1.7" />
+      <module name="xchange-quoine" target="1.7" />
+      <module name="xchange-ripple" target="1.7" />
+      <module name="xchange-taurus" target="1.7" />
+      <module name="xchange-therock" target="1.7" />
+      <module name="xchange-vaultoro" target="1.7" />
+      <module name="xchange-vircurex" target="1.7" />
+      <module name="xchange-yacuna" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

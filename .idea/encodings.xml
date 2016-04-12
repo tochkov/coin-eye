@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/XChange-develop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-anx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-bitbay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-bitcoinaverage" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-bitcoincharts" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-bitcoinde" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-bitcoinium" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-bitcurex" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-bitfinex" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-bitkonan" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-bitmarket" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-bitso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-bitstamp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-bittrex" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-bleutrade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-blockchain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-btc38" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-btccentral" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-btcchina" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-btce" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-btcmarkets" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-btctrade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-bter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-campbx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-cavirtex" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-cexio" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-clevercoin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-coinbase" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-coinbaseex" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-coinfloor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-coinmate" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-coinsetter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-cointrader" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-cryptofacilities" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-cryptonit" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-cryptsy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-empoex" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-examples" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-gatecoin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-hitbtc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-huobi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-independentreserve" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-itbit" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-jubi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-kraken" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-lakebtc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-loyalbit" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-mercadobitcoin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-mexbt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-okcoin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-openexchangerates" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-poloniex" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-quoine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-ripple" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-taurus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-therock" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-vaultoro" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-vircurex" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/XChange-develop/xchange-yacuna" charset="UTF-8" />
+  </component>
+</project>
