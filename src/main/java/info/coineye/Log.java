@@ -15,34 +15,29 @@ public class Log {
     public static final String ANSI_CYAN = "\u001B[36m";
     public static final String ANSI_WHITE = "\u001B[37m";
 
-    public static void e(String message)
-    {
+    public static void e(String message) {
         System.out.println(message);
     }
 
-    public static void red(Object object)
-    {
+    public static void red(Object object) {
 //        System.out.println(ANSI_RED + String.valueOf(object) + ANSI_RESET);
     }
 
-    public static void blue(Object object)
-    {
+    public static void blue(Object object) {
 //        System.out.println(ANSI_BLUE + String.valueOf(object) + ANSI_RESET);
     }
 
-    public static void purple(Object object)
-    {
+    public static void purple(Object object) {
 //        System.out.println(ANSI_PURPLE + String.valueOf(object) + ANSI_RESET);
     }
 
-    public static void green(Object object)
-    {
+    public static void green(Object object) {
 //        System.out.println(ANSI_GREEN + String.valueOf(object) + ANSI_RESET);
     }
 
-    public static void cyan(Object object)
-    {
-        System.out.println(ANSI_RED + String.valueOf(object) + ANSI_RESET);
+    public static void cyan(Object object) {
+//        System.out.println(ANSI_CYAN + String.valueOf(object) + ANSI_RESET);
+        System.out.println(String.valueOf(object));
     }
 
 }

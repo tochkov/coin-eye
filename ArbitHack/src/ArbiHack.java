@@ -6,7 +6,6 @@ import com.xeiam.xchange.currency.CurrencyPair;
 import com.xeiam.xchange.dto.marketdata.OrderBook;
 import com.xeiam.xchange.service.polling.marketdata.PollingMarketDataService;
 import info.coineye.Log;
-import info.coineye.TrollBox;
 
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -34,29 +33,39 @@ public class ArbiHack {
 
     private static long sleepTime = 2000;
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws InterruptedException {
 
         // Use the factory to get the version 1 Bitstamp exchange API using default settings
         Exchange bitfinexExchange = ExchangeFactory.INSTANCE.createExchange(BitfinexExchange.class.getName());
 
 
-        while (true) {
-
-            analyzeDepth(bitfinexExchange);
-
-            try {
-                Thread.sleep(sleepTime);
-                sleepTime = 2000;
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-
-        }
+        goInLoop(bitfinexExchange);
 
 
     }
 
-    private static void analyzeDepth(Exchange bitfinexExchange) throws IOException {
+    private static void goInLoop(Exchange bitfinexExchange) throws InterruptedException {
+
+        try {
+
+            while (true) {
+
+                analyzeOptions(bitfinexExchange);
+                Thread.sleep(sleepTime);
+                sleepTime = 2000;
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+
+            Thread.sleep(15000);
+            goInLoop(bitfinexExchange);
+        }
+
+    }
+
+
+    private static void analyzeOptions(Exchange bitfinexExchange) throws IOException {
 
 
         PollingMarketDataService marketDataService = bitfinexExchange.getPollingMarketDataService();
@@ -107,7 +116,7 @@ public class ArbiHack {
 
 
 //        Log.cyan("......................");
-//
+//          // maker start
 //        BigDecimal advantage1 = getAdvantagePercent("USD-->BTC-->ETH ++ MAKER", new BigDecimal("100"), USD_BTC_ask, BTC_ETH_bid, ETH_USD_bid);
 //        BigDecimal advantage2 = getAdvantagePercent("USD-->ETH-->BTC ++ MAKER", new BigDecimal("100"), USD_ETH_ask, ETH_BTC_bid, BTC_USD_bid);
 //
