@@ -42,7 +42,7 @@ public class Log {
 
     public static void cyan(Object object)
     {
-        System.out.println(ANSI_CYAN + String.valueOf(object) + ANSI_RESET);
+        System.out.println(ANSI_RED + String.valueOf(object) + ANSI_RESET);
     }
 
 }
