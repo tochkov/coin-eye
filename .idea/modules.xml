@@ -7,64 +7,124 @@
       <module fileurl="file://$PROJECT_DIR$/data-colector/data-colector.iml" filepath="$PROJECT_DIR$/data-colector/data-colector.iml" />
       <module fileurl="file://$PROJECT_DIR$/ta4j-lib/ta4j-lib.iml" filepath="$PROJECT_DIR$/ta4j-lib/ta4j-lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-anx/xchange-anx.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-anx/xchange-anx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-anx/xchange-anx.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-anx/xchange-anx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bitbay/xchange-bitbay.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bitbay/xchange-bitbay.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bitbay/xchange-bitbay.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bitbay/xchange-bitbay.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bitcoinaverage/xchange-bitcoinaverage.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bitcoinaverage/xchange-bitcoinaverage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bitcoinaverage/xchange-bitcoinaverage.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bitcoinaverage/xchange-bitcoinaverage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bitcoincharts/xchange-bitcoincharts.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bitcoincharts/xchange-bitcoincharts.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bitcoincharts/xchange-bitcoincharts.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bitcoincharts/xchange-bitcoincharts.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bitcoinde/xchange-bitcoinde.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bitcoinde/xchange-bitcoinde.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bitcoinde/xchange-bitcoinde.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bitcoinde/xchange-bitcoinde.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bitcoinium/xchange-bitcoinium.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bitcoinium/xchange-bitcoinium.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bitcoinium/xchange-bitcoinium.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bitcoinium/xchange-bitcoinium.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bitcurex/xchange-bitcurex.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bitcurex/xchange-bitcurex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bitcurex/xchange-bitcurex.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bitcurex/xchange-bitcurex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bitfinex/xchange-bitfinex.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bitfinex/xchange-bitfinex.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bitfinex/xchange-bitfinex.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bitfinex/xchange-bitfinex.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bitkonan/xchange-bitkonan.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bitkonan/xchange-bitkonan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bitkonan/xchange-bitkonan.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bitkonan/xchange-bitkonan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bitmarket/xchange-bitmarket.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bitmarket/xchange-bitmarket.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bitmarket/xchange-bitmarket.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bitmarket/xchange-bitmarket.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bitso/xchange-bitso.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bitso/xchange-bitso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bitso/xchange-bitso.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bitso/xchange-bitso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bitstamp/xchange-bitstamp.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bitstamp/xchange-bitstamp.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bitstamp/xchange-bitstamp.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bitstamp/xchange-bitstamp.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bittrex/xchange-bittrex.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bittrex/xchange-bittrex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bittrex/xchange-bittrex.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bittrex/xchange-bittrex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bleutrade/xchange-bleutrade.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bleutrade/xchange-bleutrade.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bleutrade/xchange-bleutrade.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bleutrade/xchange-bleutrade.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-blockchain/xchange-blockchain.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-blockchain/xchange-blockchain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-blockchain/xchange-blockchain.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-blockchain/xchange-blockchain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-btc38/xchange-btc38.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-btc38/xchange-btc38.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-btc38/xchange-btc38.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-btc38/xchange-btc38.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-btccentral/xchange-btccentral.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-btccentral/xchange-btccentral.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-btccentral/xchange-btccentral.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-btccentral/xchange-btccentral.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-btcchina/xchange-btcchina.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-btcchina/xchange-btcchina.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-btcchina/xchange-btcchina.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-btcchina/xchange-btcchina.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-btce/xchange-btce.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-btce/xchange-btce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-btce/xchange-btce.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-btce/xchange-btce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-btcmarkets/xchange-btcmarkets.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-btcmarkets/xchange-btcmarkets.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-btcmarkets/xchange-btcmarkets.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-btcmarkets/xchange-btcmarkets.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-btctrade/xchange-btctrade.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-btctrade/xchange-btctrade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-btctrade/xchange-btctrade.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-btctrade/xchange-btctrade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bter/xchange-bter.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bter/xchange-bter.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-bter/xchange-bter.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-bter/xchange-bter.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-campbx/xchange-campbx.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-campbx/xchange-campbx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-campbx/xchange-campbx.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-campbx/xchange-campbx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-cavirtex/xchange-cavirtex.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-cavirtex/xchange-cavirtex.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-cavirtex/xchange-cavirtex.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-cavirtex/xchange-cavirtex.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-cexio/xchange-cexio.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-cexio/xchange-cexio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-cexio/xchange-cexio.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-cexio/xchange-cexio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-clevercoin/xchange-clevercoin.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-clevercoin/xchange-clevercoin.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-clevercoin/xchange-clevercoin.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-clevercoin/xchange-clevercoin.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-coinbase/xchange-coinbase.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-coinbase/xchange-coinbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-coinbase/xchange-coinbase.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-coinbase/xchange-coinbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-coinbaseex/xchange-coinbaseex.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-coinbaseex/xchange-coinbaseex.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-coinbaseex/xchange-coinbaseex.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-coinbaseex/xchange-coinbaseex.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-coinfloor/xchange-coinfloor.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-coinfloor/xchange-coinfloor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-coinfloor/xchange-coinfloor.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-coinfloor/xchange-coinfloor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-coinmate/xchange-coinmate.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-coinmate/xchange-coinmate.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-coinmate/xchange-coinmate.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-coinmate/xchange-coinmate.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-coinsetter/xchange-coinsetter.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-coinsetter/xchange-coinsetter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-coinsetter/xchange-coinsetter.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-coinsetter/xchange-coinsetter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-cointrader/xchange-cointrader.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-cointrader/xchange-cointrader.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-cointrader/xchange-cointrader.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-cointrader/xchange-cointrader.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-core/xchange-core.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-core/xchange-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-core/xchange-core.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-core/xchange-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-cryptofacilities/xchange-cryptofacilities.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-cryptofacilities/xchange-cryptofacilities.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-cryptofacilities/xchange-cryptofacilities.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-cryptofacilities/xchange-cryptofacilities.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-cryptonit/xchange-cryptonit.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-cryptonit/xchange-cryptonit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-cryptonit/xchange-cryptonit.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-cryptonit/xchange-cryptonit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-cryptsy/xchange-cryptsy.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-cryptsy/xchange-cryptsy.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-cryptsy/xchange-cryptsy.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-cryptsy/xchange-cryptsy.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-empoex/xchange-empoex.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-empoex/xchange-empoex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-empoex/xchange-empoex.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-empoex/xchange-empoex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-examples/xchange-examples.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-examples/xchange-examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-examples/xchange-examples.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-examples/xchange-examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-gatecoin/xchange-gatecoin.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-gatecoin/xchange-gatecoin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-gatecoin/xchange-gatecoin.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-gatecoin/xchange-gatecoin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-hitbtc/xchange-hitbtc.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-hitbtc/xchange-hitbtc.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-hitbtc/xchange-hitbtc.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-hitbtc/xchange-hitbtc.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-huobi/xchange-huobi.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-huobi/xchange-huobi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-huobi/xchange-huobi.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-huobi/xchange-huobi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-independentreserve/xchange-independentreserve.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-independentreserve/xchange-independentreserve.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-independentreserve/xchange-independentreserve.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-independentreserve/xchange-independentreserve.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-itbit/xchange-itbit.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-itbit/xchange-itbit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-itbit/xchange-itbit.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-itbit/xchange-itbit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-jubi/xchange-jubi.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-jubi/xchange-jubi.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-jubi/xchange-jubi.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-jubi/xchange-jubi.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-kraken/xchange-kraken.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-kraken/xchange-kraken.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-kraken/xchange-kraken.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-kraken/xchange-kraken.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-lakebtc/xchange-lakebtc.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-lakebtc/xchange-lakebtc.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-lakebtc/xchange-lakebtc.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-lakebtc/xchange-lakebtc.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-loyalbit/xchange-loyalbit.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-loyalbit/xchange-loyalbit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-loyalbit/xchange-loyalbit.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-loyalbit/xchange-loyalbit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-mercadobitcoin/xchange-mercadobitcoin.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-mercadobitcoin/xchange-mercadobitcoin.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-mercadobitcoin/xchange-mercadobitcoin.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-mercadobitcoin/xchange-mercadobitcoin.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-mexbt/xchange-mexbt.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-mexbt/xchange-mexbt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-mexbt/xchange-mexbt.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-mexbt/xchange-mexbt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-okcoin/xchange-okcoin.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-okcoin/xchange-okcoin.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-okcoin/xchange-okcoin.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-okcoin/xchange-okcoin.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-openexchangerates/xchange-openexchangerates.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-openexchangerates/xchange-openexchangerates.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-openexchangerates/xchange-openexchangerates.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-openexchangerates/xchange-openexchangerates.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-parent.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-parent.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-poloniex/xchange-poloniex.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-poloniex/xchange-poloniex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-poloniex/xchange-poloniex.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-poloniex/xchange-poloniex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-quoine/xchange-quoine.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-quoine/xchange-quoine.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-quoine/xchange-quoine.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-quoine/xchange-quoine.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-ripple/xchange-ripple.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-ripple/xchange-ripple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-ripple/xchange-ripple.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-ripple/xchange-ripple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-taurus/xchange-taurus.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-taurus/xchange-taurus.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-taurus/xchange-taurus.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-taurus/xchange-taurus.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-therock/xchange-therock.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-therock/xchange-therock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-therock/xchange-therock.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-therock/xchange-therock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-vaultoro/xchange-vaultoro.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-vaultoro/xchange-vaultoro.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-vaultoro/xchange-vaultoro.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-vaultoro/xchange-vaultoro.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-vircurex/xchange-vircurex.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-vircurex/xchange-vircurex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-vircurex/xchange-vircurex.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-vircurex/xchange-vircurex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-yacuna/xchange-yacuna.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-yacuna/xchange-yacuna.iml" />
       <module fileurl="file://$PROJECT_DIR$/XChange-develop/xchange-yacuna/xchange-yacuna.iml" filepath="$PROJECT_DIR$/XChange-develop/xchange-yacuna/xchange-yacuna.iml" />
     </modules>
   </component>
