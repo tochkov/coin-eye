@@ -12,6 +12,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="gcm-server-1.0.2" level="project" />
+    <orderEntry type="module" module-name="xchange-core" />
+    <orderEntry type="module" module-name="xchange-bitfinex" />
     <orderEntry type="library" name="Maven: com.github.Ullink:simple-slack-api:0.5.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.4" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4" level="project" />
