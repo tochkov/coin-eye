@@ -39,12 +39,12 @@ public class ArbiHack {
         Exchange bitfinexExchange = ExchangeFactory.INSTANCE.createExchange(BitfinexExchange.class.getName());
 
 
-        goInLoop(bitfinexExchange);
+        infiniteLoop(bitfinexExchange);
 
 
     }
 
-    private static void goInLoop(Exchange bitfinexExchange) throws InterruptedException {
+    private static void infiniteLoop(Exchange bitfinexExchange) throws InterruptedException {
 
         try {
 
@@ -58,8 +58,8 @@ public class ArbiHack {
         } catch (Exception e) {
             e.printStackTrace();
 
-            Thread.sleep(15000);
-            goInLoop(bitfinexExchange);
+            Thread.sleep(30000);
+            infiniteLoop(bitfinexExchange);
         }
 
     }
@@ -102,7 +102,7 @@ public class ArbiHack {
 //        Log.cyan("BTC_ETH ask: " + BTC_ETH_ask + " || bid: " + BTC_ETH_bid);
 //        Log.cyan("ETH_USD ask: " + ETH_USD_ask + " || bid: " + ETH_USD_bid);
 //        Log.cyan("USD_ETH ask: " + USD_ETH_ask + " || bid: " + USD_ETH_bid);
-//        Log.cyan("......................");
+        Log.cyan("==============================================================================================================================================================");
 
 
         BigDecimal advantage1 = getAdvantagePercent("USD-->BTC-->ETH :: INSTA", new BigDecimal("100"), USD_BTC_bid, BTC_ETH_bid, ETH_USD_bid);
@@ -117,16 +117,16 @@ public class ArbiHack {
 
 //        Log.cyan("......................");
 //          // maker start
-//        BigDecimal advantage1 = getAdvantagePercent("USD-->BTC-->ETH ++ MAKER", new BigDecimal("100"), USD_BTC_ask, BTC_ETH_bid, ETH_USD_bid);
-//        BigDecimal advantage2 = getAdvantagePercent("USD-->ETH-->BTC ++ MAKER", new BigDecimal("100"), USD_ETH_ask, ETH_BTC_bid, BTC_USD_bid);
+//        BigDecimal advantage1 = getAdvantagePercentMakerStart("USD-->BTC-->ETH ++ MAKER", new BigDecimal("100"), USD_BTC_ask, BTC_ETH_bid, ETH_USD_bid);
+//        BigDecimal advantage2 = getAdvantagePercentMakerStart("USD-->ETH-->BTC ++ MAKER", new BigDecimal("100"), USD_ETH_ask, ETH_BTC_bid, BTC_USD_bid);
 //
-//        BigDecimal advantage3 = getAdvantagePercent("BTC-->USD-->ETH ++ MAKER", new BigDecimal("1"), BTC_USD_ask, USD_ETH_bid, ETH_BTC_bid);
-//        BigDecimal advantage4 = getAdvantagePercent("BTC-->ETH-->USD ++ MAKER", new BigDecimal("1"), BTC_ETH_ask, ETH_USD_bid, USD_BTC_bid);
+//        BigDecimal advantage3 = getAdvantagePercentMakerStart("BTC-->USD-->ETH ++ MAKER", new BigDecimal("1"), BTC_USD_ask, USD_ETH_bid, ETH_BTC_bid);
+//        BigDecimal advantage4 = getAdvantagePercentMakerStart("BTC-->ETH-->USD ++ MAKER", new BigDecimal("1"), BTC_ETH_ask, ETH_USD_bid, USD_BTC_bid);
 //
-//        BigDecimal advantage5 = getAdvantagePercent("ETH-->BTC-->USD ++ MAKER", new BigDecimal("10"), ETH_BTC_ask, BTC_USD_bid, USD_ETH_bid);
-//        BigDecimal advantage6 = getAdvantagePercent("ETH-->USD-->BTC ++ MAKER", new BigDecimal("10"), ETH_USD_ask, USD_BTC_bid, BTC_ETH_bid);
+//        BigDecimal advantage5 = getAdvantagePercentMakerStart("ETH-->BTC-->USD ++ MAKER", new BigDecimal("10"), ETH_BTC_ask, BTC_USD_bid, USD_ETH_bid);
+//        BigDecimal advantage6 = getAdvantagePercentMakerStart("ETH-->USD-->BTC ++ MAKER", new BigDecimal("10"), ETH_USD_ask, USD_BTC_bid, BTC_ETH_bid);
 
-        Log.cyan("......................");
+        Log.cyan("==============================================================================================================================================================");
 
         if (advantage1.compareTo(highScore1) == 1)
             highScore1 = advantage1;
@@ -173,6 +173,7 @@ public class ArbiHack {
         Log.cyan("***HIGH SCORE 5: " + highScore5 + " ||||| " + listScores5);
         Log.cyan("***HIGH SCORE 6: " + highScore6 + " ||||| " + listScores6);
 
+        Log.cyan("==============================================================================================================================================================");
     }
 
     private static BigDecimal TAKER_FEE_APPLIED = new BigDecimal("1").subtract(new BigDecimal("0.002"));
