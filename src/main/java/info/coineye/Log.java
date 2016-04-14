@@ -24,7 +24,7 @@ public class Log {
     }
 
     public static void blue(Object object) {
-//        System.out.println(ANSI_BLUE + String.valueOf(object) + ANSI_RESET);
+        System.out.println(ANSI_BLUE + String.valueOf(object) + ANSI_RESET);
     }
 
     public static void purple(Object object) {
@@ -36,8 +36,15 @@ public class Log {
     }
 
     public static void cyan(Object object) {
-//        System.out.println(ANSI_CYAN + String.valueOf(object) + ANSI_RESET);
-        System.out.println(String.valueOf(object));
+        System.out.println(ANSI_CYAN + String.valueOf(object) + ANSI_RESET);
+    }
+
+    public static void bid(Object object, boolean enter) {
+        System.out.print((enter ? ANSI_BLUE : ANSI_RED) + String.valueOf(object) + ANSI_RESET + " || ");
+    }
+
+    public static void ask(Object object, boolean enter) {
+        System.out.println((enter ? ANSI_BLUE : ANSI_GREEN) + String.valueOf(object) + ANSI_RESET);
     }
 
 }
