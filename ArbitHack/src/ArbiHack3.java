@@ -192,7 +192,7 @@ public class ArbiHack3 {
         boolean foundEntranceBid = false;
         boolean foundEntranceAsk = false;
 
-        for (int i = 0; i < 15; i++) {
+        for (int i = 0; i < 20; i++) {
 
             double bidPrice = bids.get(i).getLimitPrice().doubleValue();
             double bidVolume = bids.get(i).getTradableAmount().doubleValue();

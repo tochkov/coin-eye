@@ -10,5 +10,6 @@
     <orderEntry type="module" module-name="xchange-core" />
     <orderEntry type="module" module-name="xchange-bitfinex" />
     <orderEntry type="module" module-name="coin-eye" />
+    <orderEntry type="library" name="gcm-server-1.0.2" level="project" />
   </component>
 </module>
