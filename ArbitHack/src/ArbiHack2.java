@@ -23,7 +23,8 @@ import java.util.ArrayList;
  */
 public class ArbiHack2 {
 
-    private static final String DESIRED_PERCENT = "0.002";
+    private static final String DESIRED_PERCENT = "0.0015";
+
     private static BigDecimal highScore1 = new BigDecimal("-100");
     private static BigDecimal highScore2 = new BigDecimal("-100");
     private static BigDecimal highScore3 = new BigDecimal("-100");
@@ -103,12 +104,14 @@ public class ArbiHack2 {
 //        Log.cyan("......................");
 
 
-
         BigDecimal advantage1 = getEntrancePoint("USD-->BTC-->ETH :: INSTA", new BigDecimal("100"), new BigDecimal(DESIRED_PERCENT), BTC_ETH_bid, ETH_USD_bid);
         BigDecimal advantage3 = getEntrancePoint("BTC-->USD-->ETH :: INSTA", new BigDecimal("1"), new BigDecimal(DESIRED_PERCENT), USD_ETH_bid, ETH_BTC_bid);
 
         printDepth(ordersBTCUSD, "BTCUSD", reciprocal(advantage1), advantage3);
         Log.cyan(reciprocal(advantage1) + " | " + advantage3);
+        Log.cyan("validation:");
+        Log.cyan(getResultForTest(new BigDecimal("100"), advantage1, BTC_ETH_bid, ETH_USD_bid));
+        Log.cyan(getResultForTest(new BigDecimal("1"), advantage3, USD_ETH_bid, ETH_BTC_bid));
 
 
         BigDecimal advantage2 = getEntrancePoint("USD-->ETH-->BTC :: INSTA", new BigDecimal("100"), new BigDecimal(DESIRED_PERCENT), ETH_BTC_bid, BTC_USD_bid);
@@ -116,6 +119,9 @@ public class ArbiHack2 {
 
         printDepth(ordersETHUSD, "ETHUSD", reciprocal(advantage2), advantage6);
         Log.cyan(reciprocal(advantage2) + " | " + advantage6);
+        Log.cyan("validation:");
+        Log.cyan(getResultForTest(new BigDecimal("100"), advantage2, ETH_BTC_bid, BTC_USD_bid));
+        Log.cyan(getResultForTest(new BigDecimal("10"), advantage6, USD_BTC_bid, BTC_ETH_bid));
 
 
         BigDecimal advantage4 = getEntrancePoint("BTC-->ETH-->USD :: INSTA", new BigDecimal("1"), new BigDecimal(DESIRED_PERCENT), ETH_USD_bid, USD_BTC_bid);
@@ -123,6 +129,9 @@ public class ArbiHack2 {
 
         printDepth(ordersETHBTC, "ETHBTC", reciprocal(advantage4), advantage5);
         Log.cyan(reciprocal(advantage4) + " | " + advantage5);
+        Log.cyan("validation:");
+        Log.cyan(getResultForTest(new BigDecimal("1"), advantage4, ETH_USD_bid, USD_BTC_bid));
+        Log.cyan(getResultForTest(new BigDecimal("10"), advantage5, BTC_USD_bid, USD_ETH_bid));
 
 
     }
@@ -164,7 +173,7 @@ public class ArbiHack2 {
         return targetPrice;
     }
 
-    private static BigDecimal getAdvantagePercentMakerStart(String label, BigDecimal startAmount, BigDecimal firstPairPrice, BigDecimal secondPairPrice, BigDecimal thirdPairPrice) {
+    private static BigDecimal getResultForTest(BigDecimal startAmount, BigDecimal firstPairPrice, BigDecimal secondPairPrice, BigDecimal thirdPairPrice) {
 
         BigDecimal firstPairAmount = startAmount.multiply(MAKER_FEE_APPLIED).multiply(firstPairPrice);
         BigDecimal secondPairAmount = firstPairAmount.multiply(TAKER_FEE_APPLIED).multiply(secondPairPrice);
@@ -174,8 +183,6 @@ public class ArbiHack2 {
 
         BigDecimal advantagePercent = diff.divide(startAmount, 10, RoundingMode.HALF_UP).multiply(new BigDecimal("100"));
 
-        Log.cyan(label + " : " + advantagePercent + "%");
-//        Log.cyan("final : " + finalAmount);
         return advantagePercent;
     }
 
@@ -230,7 +237,7 @@ public class ArbiHack2 {
 
             boolean enterBid = false;
 
-            if(!foundEntranceBid && entranceBid.compareTo(bidPrice) == 1) {
+            if (!foundEntranceBid && entranceBid.compareTo(bidPrice) == 1) {
                 foundEntranceBid = true;
                 enterBid = true;
             }
@@ -246,7 +253,7 @@ public class ArbiHack2 {
 
             boolean enterAsk = false;
 
-            if(!foundEntranceAsk && entranceAsk.compareTo(askPrice) == -1) {
+            if (!foundEntranceAsk && entranceAsk.compareTo(askPrice) == -1) {
                 foundEntranceAsk = true;
                 enterAsk = true;
             }

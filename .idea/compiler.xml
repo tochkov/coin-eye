@@ -22,7 +22,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="coin-eye" />
         <module name="xchange-anx" />
         <module name="xchange-bitbay" />
         <module name="xchange-bitcoinaverage" />
