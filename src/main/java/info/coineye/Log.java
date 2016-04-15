@@ -28,7 +28,7 @@ public class Log {
     }
 
     public static void purple(Object object) {
-//        System.out.println(ANSI_PURPLE + String.valueOf(object) + ANSI_RESET);
+        System.out.println(ANSI_PURPLE + String.valueOf(object) + ANSI_RESET);
     }
 
     public static void green(Object object) {

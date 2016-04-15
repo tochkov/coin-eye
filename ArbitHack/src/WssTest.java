@@ -1,87 +1,59 @@
-import com.xeiam.xchange.Exchange;
-import com.xeiam.xchange.ExchangeFactory;
-import com.xeiam.xchange.bitfinex.v1.BitfinexExchange;
-import com.xeiam.xchange.exceptions.ExchangeException;
-import com.xeiam.xchange.service.streaming.*;
-import info.coineye.GCM;
-import info.coineye.Log;
-import rx.functions.Action1;
-import rx.schedulers.Schedulers;
-import ws.wamp.jawampa.ApplicationError;
-import ws.wamp.jawampa.PubSubData;
-import ws.wamp.jawampa.WampClient;
-import ws.wamp.jawampa.WampClientBuilder;
 
-import java.net.URISyntaxException;
-import java.util.HashMap;
+import com.neovisionaries.ws.client.WebSocket;
+import com.neovisionaries.ws.client.WebSocketAdapter;
+import com.neovisionaries.ws.client.WebSocketFactory;
+
+import java.net.URI;
 
 /**
  * Created by user on 4/14/2016.
  */
 public class WssTest {
 
-    public static void main(String[] args) throws InterruptedException, URISyntaxException, ApplicationError {
+    public static void main(String[] args) throws Exception {
 
-
-
-
-                        //https://github.com/TooTallNate/Java-WebSocket
-
-
-        final WampClient client = new WampClientBuilder()
-                .withUri("wss://api2.bitfinex.com:3000/ws")
-//                .withUri("wss://ws.bitfinex.com:3333")
-                .withRealm("realm1")
-                .withStrictUriValidation(false)
-                .build();
-
-
-//        client.call()
-
-        client.statusChanged().subscribe(new Action1<WampClient.State>() {
-            public void call(WampClient.State state) {
-
-
-                if (state instanceof WampClient.ConnectingState) {
-                    System.out.println("Connecting");
-                } else if (state instanceof WampClient.ConnectedState) {
-                    System.out.println("Connected");
-
-                    // ticker, trollbox, BTC_ETH
-//                    client.makeSubscription("trollbox").observeOn(Schedulers.newThread()).subscribe(new Action1<PubSubData>() {
-//                        public void call(PubSubData pubSubData) {
-//                            System.out.println( "pubDat: " + pubSubData.arguments() );
+        //https://github.com/TooTallNate/Java-WebSocket
 //
-////                            TrollBox.get().onMessageReceived(pubSubData);
+//        new URI("wss://api2.bitfinex.com:3000/ws")
 //
 //
-//                        }
-//                    }, new Action1<Throwable>() {
-//                        public void call(Throwable throwable) {
-////                            System.out.println("pubDat: " + throwable);
-////                            throwable.printStackTrace();
-////
-////                            GCM.sendMsg("!!!error", "", "Some Exception occurred");
-////                            client.close();
-////                            connectAndSubscribe(client);
-//
-//                        }
-//                    });
-                } else if (state instanceof WampClient.DisconnectedState) {
-                    System.out.println("Disconnected " + ((WampClient.DisconnectedState) state).disconnectReason());
-//                    GCM.sendMsg("!!!error", "", "Disconnected");
-//                    client.close();
-//                    connectAndSubscribe(client);
+        // Connect to "wss://echo.websocket.org" and send "Hello." to it.
+        // When a response from the WebSocket server is received, the
+        // WebSocket connection is closed.
+        WebSocket ws = new WebSocketFactory()
+                .createSocket("wss://api2.bitfinex.com:3000/ws")
+                .addListener(new WebSocketAdapter() {
+                    @Override
+                    public void onTextMessage(WebSocket ws, String message) {
+                        // Received a response. Print the received message.
+                        System.out.println(message);
 
-                }
-
-            }
-        });
+                        // Close the WebSocket connection.
+                    }
+                })
+                .connect();
 
 
-        client.open();
 
-        Log.blue("---------------------------------------");
+        String jsonString = "{\n" +
+                "   \"event\":\"subscribe\",\n" +
+                "   \"channel\":\"book\",\n" +
+                "   \"pair\":\"BTCUSD\",\n" +
+                "   \"prec\":\"P0\",\n" +
+                "   \"freq\":\"F0\"\n" +
+                "}";
+
+//        String jsonString = "{\n" +
+//                "   \"event\":\"subscribe\",\n" +
+//                "   \"channel\":\"book\",\n" +
+//                "   \"pair\":\"BTCUSD\",\n" +
+//                "   \"prec\":\"R0\",\n" +
+//                "   \"len\":\"25\"\n" +
+//                "}";
+
+
+        ws.sendText(jsonString);
+
         while (true) {
             Thread.sleep(1000);
         }

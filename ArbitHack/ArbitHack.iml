@@ -10,6 +10,7 @@
     <orderEntry type="module" module-name="xchange-core" />
     <orderEntry type="module" module-name="xchange-bitfinex" />
     <orderEntry type="module" module-name="coin-eye" />
-    <orderEntry type="library" name="gcm-server-1.0.2" level="project" />
+    <orderEntry type="library" name="Maven: nv-websocket-client:1.3.0" level="project" />
+    <orderEntry type="library" name="com.neovisionaries:nv-websocket-client:1.25" level="project" />
   </component>
 </module>

@@ -1,25 +1,16 @@
 package info.coineye;
 
-import com.ullink.slack.simpleslackapi.SlackChannel;
-import com.ullink.slack.simpleslackapi.SlackSession;
-import com.ullink.slack.simpleslackapi.impl.SlackSessionFactory;
 import rx.functions.Action1;
 import rx.schedulers.Schedulers;
 import ws.wamp.jawampa.PubSubData;
 import ws.wamp.jawampa.WampClient;
 import ws.wamp.jawampa.WampClientBuilder;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
 import java.text.DateFormat;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.Date;
+import java.util.Locale;
 
 public class CoinEye {
 
@@ -152,12 +143,9 @@ public class CoinEye {
 
     private static void go() throws Exception {
         final WampClient client = new WampClientBuilder()
-//                .withUri("wss://api.poloniex.com")
-                .withUri("wss://api2.bitfinex.com:3000/ws")
-//                .withUri("wss://ws.bitfinex.com:3333")
+                .withUri("wss://api.poloniex.com")
                 .withRealm("realm1")
                 .build();
-
 
         connectAndSubscribe(client);
 
